@@ -1,0 +1,13 @@
+listendev: wlan0
+outport: tun0
+projectname: admin
+user: admin
+password: cp-x2520
+projectid: f9ee7c787dfc4b67bc99956d45ebe3c8
+projectnetwork: MUNetwork
+authmethod: ldap
+authprovider:
+    LDAPAddr: "192.168.1.90:389"
+    DCString: "dc=unitecloud,dc=net"
+    UserObjectClass: "simpleSecurityObject"
+    IPAddressAttribute: "postalAddress"
